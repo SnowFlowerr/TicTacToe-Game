@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(235, 235, 226);
+}
+.full{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100dvh;
+    width: 90vw;
+    margin: auto;
+}
+.main{
+    border: 2px solid black;
+    width: 45vw;
+    padding: 10px;
+    margin: auto;
+}
+.bigBox{
+    width: 45vw;
+    height: 45vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.7vw;
+}
+.box{
+    background-color: black;
+    width: 14.5vw;
+    height: 14.5vw;
+    font-size: 14vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(116, 76, 76);
+}
+.box:active{
+    background-color: rgb(49, 43, 43);
+}
+.again{
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.again button{
+    width: 100%;
+    height: 50px;
+    font-size: 2.5vw;
+}
+.again button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.txt{
+    font-size: 3vw;
+    text-align: center;
+}
+.player{
+    font-size: 5vw;
+    font-weight: 600;
+}
+.score{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 15vw;
+    color: rgb(143, 60, 49);
+}
+.turn{
+    border: 2px solid black;
+    font-size: 2.5vw;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
